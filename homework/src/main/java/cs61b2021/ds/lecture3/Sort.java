@@ -33,7 +33,7 @@ public class Sort {
         x[smallestIndex] = tempString;
     }
 
-    /* Return the smallest String in x. */
+    /* Return the index of the smallest String in x. */
     public static int findSmallestIndex(String[] x, int s, int f) {
         int smallestIndex = s;
 
