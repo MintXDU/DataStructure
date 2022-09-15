@@ -58,7 +58,6 @@ public class TestEmptySpace {
                 Model.emptySpaceExists(b));
     }
 
-
     @Test
     /** Tests a board that is completely full except for the left column. */
     public void testEmptyLeftCol() {

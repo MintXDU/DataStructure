@@ -39,10 +39,7 @@ public class Main {
         gui = new GUI("2048 61B", model);
         gui.display(true);
 
-        InputSource inp;
-
-        inp = new GUISource(gui, gen, TILE2_PROBABILITY,
-                            options.getFirst("--log"));
+        InputSource inp = new GUISource(gui, gen, TILE2_PROBABILITY, options.getFirst("--log"));
 
         Game game = new Game(model, inp);
 
